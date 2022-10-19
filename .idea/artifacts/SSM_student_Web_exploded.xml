@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SSM_student:Web exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/SSM_student_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SSM_student/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSM_student" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="commons-logging-1.2.jar" module-name="SSM_student" />
+          <element id="library" level="module" name="spring-aop-4.3.6.RELEASE.jar" module-name="SSM_student" />
+          <element id="library" level="module" name="spring-beans-4.3.6.RELEASE.jar" module-name="SSM_student" />
+          <element id="library" level="module" name="spring-context-4.3.6.RELEASE.jar" module-name="SSM_student" />
+          <element id="library" level="module" name="spring-core-4.3.6.RELEASE.jar" module-name="SSM_student" />
+          <element id="library" level="module" name="spring-expression-4.3.6.RELEASE.jar" module-name="SSM_student" />
+          <element id="library" level="module" name="spring-web-4.3.6.RELEASE.jar" module-name="SSM_student" />
+          <element id="library" level="module" name="spring-webmvc-4.3.6.RELEASE.jar" module-name="SSM_student" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
